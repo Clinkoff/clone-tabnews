@@ -1,5 +1,9 @@
 function Home() {
- return  <h1>Titulo aqui! Apenas mexendo um pouco.</h1>
+  return <h1>Titulo aqui! Apenas mexendo um pouco.</h1>;
 }
 
-export default Home; 
+function teste() {
+  console.log();
+}
+
+export default Home;
