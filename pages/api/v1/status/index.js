@@ -21,7 +21,6 @@ async function status(request, response) {
 
   const conexaoAtiva = conexaoAtivaResult.rows[0].total
 
-  console.log(conexaoAtiva)
   response.status(200).json({
     atualizado_em: atualizadoEm,
     dependencies: {
